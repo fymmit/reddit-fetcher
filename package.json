@@ -1,12 +1,18 @@
 {
   "name": "reddit-fetcher",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Get daily top images from reddit",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "files": ["src"],
+  "bin": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "fymmit",
+  "license": "ISC",
+  "dependencies": {
+    "rss-parser": "^3.7.3"
+  }
 }
