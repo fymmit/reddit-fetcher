@@ -1,3 +1,3 @@
-const fetcher = require('./reddit-fetcher');
+import reddit from './reddit-fetcher.js';
 
-module.exports = fetcher;
+export { reddit };

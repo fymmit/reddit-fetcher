@@ -1,4 +1,4 @@
-const Parser = require('rss-parser');
+import Parser from 'rss-parser';
 const parser = new Parser();
 
 const findImageUrl = (text) => {
@@ -32,4 +32,4 @@ const main = async (subreddit) => {
     });
 };
 
-module.exports = main;
+export default main;
