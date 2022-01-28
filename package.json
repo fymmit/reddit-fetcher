@@ -1,6 +1,6 @@
 {
   "name": "reddit-fetcher",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get daily top images from reddit",
   "main": "index.js",
   "module": "index.js",
@@ -9,6 +9,10 @@
     "src"
   ],
   "bin": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fymmit/reddit-fetcher.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
