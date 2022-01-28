@@ -1,6 +1,6 @@
 {
   "name": "reddit-fetcher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get daily top images from reddit",
   "main": "index.js",
   "module": "index.js",
